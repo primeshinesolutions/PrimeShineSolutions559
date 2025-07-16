@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Shine Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #cd7f32;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: #cd7f32;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li::before {
+      content: "\2728 ";
+      color: #cd7f32;
+    }
+    .contact-info p {
+      line-height: 1.6;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      color: #333;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #fff;
+      color: #333;
+      font-size: 1em;
+    }
+    form button {
+      background-color: #cd7f32;
+      color: #111;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #111;
+      color: #cd7f32;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Prime Shine Logo" />
+    <h1>Prime Shine Solutions</h1>
+    <p>Professional Office Cleaning in Fresno, Clovis & More</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#quote">Request a Quote</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Professional Office Cleaning You Can Trust</strong><br>
+    Keeping your business spotless, safe, and client-ready—every single day.</p>
+    <p><strong>Why Choose Prime Shine Solutions?</strong><br>
+    With over 20 years of experience in the cleaning industry, Prime Shine Solutions is built on a legacy of excellence, trust, and attention to detail. We understand that a clean office isn’t just about appearance—it’s about creating a safe, productive, and welcoming environment for both employees and clients.<br><br>
+    Over the years, we’ve served businesses of all sizes. Our team is trained, reliable, and fully committed to delivering consistent results that exceed expectations.<br><br>
+    At Prime Shine Solutions, we don’t just clean—we care. We treat every space with respect, work around your schedule, and tailor our services to your unique needs. Whether it’s a daily cleaning routine or an occasional deep clean, you can count on us to help your business shine every day.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>General Office Cleaning:</strong> Dusting, vacuuming, surface cleaning, and overall tidying of all office areas including workstations, meeting rooms, and lobbies.</li>
+      <li><strong>Restroom Sanitization:</strong> Thorough cleaning and disinfecting of restrooms, including toilets, sinks, mirrors, and floors, with attention to odor control and hygiene.</li>
+      <li><strong>Trash Removal:</strong> Regular emptying of trash and recycling bins with proper disposal, keeping your environment clutter-free and sanitary.</li>
+      <li><strong>Floor Sweeping & Mopping:</strong> Cleaning of all floor types including tile, laminate, and hardwood—removing dust, dirt, and spills to maintain a polished look.</li>
+      <li><strong>Breakroom & Kitchen Cleaning:</strong> Sanitizing countertops, sinks, tables, appliances, and removing trash to keep shared spaces clean and safe.</li>
+      <li><strong>Disinfection & High-Touch Surface Cleaning:</strong> Targeted cleaning of door handles, light switches, and other high-contact areas to reduce germs and promote health.</li>
+      <li><strong>After-Hours & Weekend Availability:</strong> We offer flexible scheduling to clean your office when it’s most convenient—after business hours, nights, or weekends.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact-info">
+    <h2>📞 Contact Us</h2>
+    <p><strong>Let’s Talk About Your Cleaning Needs—In Person</strong><br>
+    We don’t give quotes over the phone or online. We offer free in-person walkthroughs to assess your space and understand exactly how we can help.</p>
+    <h3>📧 Contact Info</h3>
+    <p>Email: primeshinesolutions559@gmail.com<br>
+    Phone: (559) 498-6372<br>
+    Hours: Monday–Saturday, 8AM–6PM</p>
+  </section>
+
+  <section id="quote">
+    <h2>Request a Quote</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="message">Tell us about your cleaning needs</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Prime Shine Solutions. All rights reserved.
+  </footer>
+</body>
+</html>
